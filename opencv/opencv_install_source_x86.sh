@@ -13,7 +13,7 @@ sudo apt-get -y update
 
 echo "Now installing dependencies"
 echo "Installing developer tools to support OpenCV build process..."
-sudo apt-get -y install build-essencial cmake pkg-config
+sudo apt-get -y install build-essential cmake pkg-config
 echo "Installing some packages for images..."
 sudo apt-get -y install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
 echo "installing packages for video..."
