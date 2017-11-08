@@ -48,10 +48,12 @@ mkdir build
 cd build
 echo "Configure OpenCV with cmake..."
 cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local -DINSTALL_PYTHON_EXAMPLES=ON -DBUILD_TESTS=OFF -DENABLE_NEON=ON -DENABLE_VFPV3=ON -DBUILD_EXAMPLES=ON -DOPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-${VERSION}/modules ..
+#---------------------------------------
 #CPU_CORES=$(grep -c ^processor /proc/cpuinfo)
 #echo "Building OpenCV $VERSION with $CPU_CORES CPU cores"
 #make -j ${CPU_CORES} || true
 #echo "Build any remaining code with single thread..."
+#---------------------------------------
 make
 echo "Installing OpenCV $VERSION to system folder"
 sudo make install
