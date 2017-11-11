@@ -27,7 +27,7 @@ TEMP=$($TEMPCMD)
 echo "==========================================================" >> ~/$CVLOG
 echo "      Welcome To OpenCV $VERSION Install Script." >> ~/$CVLOG
 echo "                By Mark Heywood, 2017" >> ~/$CVLOG
-echo "                https://www.bluetin.io" >> ~/$CVLOG
+echo "                http://www.bluetin.io" >> ~/$CVLOG
 echo "Download and install OpenCV $VERSION and its dependencies." >> ~/$CVLOG
 echo "==========================================================" >> ~/$CVLOG
 echo "File: $FILE" >> ~/$CVLOG
