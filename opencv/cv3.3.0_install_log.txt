@@ -1,0 +1,132 @@
+==========================================================
+      Welcome To OpenCV 3.3.0 Install Script.
+                By Mark Heywood, 2017
+                http://www.bluetin.io
+Download and install OpenCV 3.3.0 and its dependencies.
+==========================================================
+File: pi_opencv_source_install_0.sh
+Started: Thu  9 Nov 14:34:00 UTC 2017
+--> temp=48.3'C
+CPU cores: 4
+---------------------------
+---------------------------
+Lets get the package lists up to date...
+> Run sudo apt-get update
+---
+--> Thu  9 Nov 14:34:10 UTC 2017
+--> temp=53.2'C
+---
+---
+Now installing dependencies
+---------------------------
+Installing developer tools to support OpenCV build process...
+> build-essential
+> make
+> cmake
+> cmake-curses-gui
+> g++
+> pkg-config
+---
+--> Thu  9 Nov 14:35:02 UTC 2017
+--> temp=55.3'C
+---
+Installing some packages for image processing...
+> libjpeg-dev
+> libtiff5-dev
+> libjasper-dev
+> libpng12-dev
+---
+--> Thu  9 Nov 14:35:43 UTC 2017
+--> temp=55.8'C
+---
+Installing packages for video...
+> libavcodec-dev
+> libavformat-dev
+> libswscale-dev
+> libv4l-dev
+> libxvidcore-dev
+> libx264-dev
+> libavutil-dev
+---
+--> Thu  9 Nov 14:37:16 UTC 2017
+--> temp=56.4'C
+---
+Installing GTK development library...
+> libgtk2.0-dev
+> libgtk-3-dev
+---
+--> Thu  9 Nov 14:44:01 UTC 2017
+--> temp=56.4'C
+---
+Installing a few extra dependencies...
+> libatlas-base-dev
+> gfortran
+> libeigen3-dev
+> libglew1.6-dev
+---
+--> Thu  9 Nov 14:45:40 UTC 2017
+--> temp=54.2'C
+---
+---
+Installing Python 2.7 and Python 3 dev files...
+> python2.7-dev
+> python3-dev
+---
+--> Thu  9 Nov 14:45:45 UTC 2017
+--> temp=56.4'C
+---
+---
+Download and Extract OpenCV Files
+---------------------------------
+Downloading OpenCV Version 3.3.0 ...
+> opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
+Downloading OpenCV Contrib Files Version 3.3.0 ...
+> opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
+---
+--> Thu  9 Nov 14:59:58 UTC 2017
+--> temp=48.9'C
+---
+> Extract opencv...
+> Extract opencv_contrib...
+---
+--> Thu  9 Nov 15:00:19 UTC 2017
+--> temp=53.7'C
+---
+---
+Install Some Python Stuff
+-------------------------
+Download and install pip - Python package manager...
+> https://bootstrap.pypa.io/get-pip.py
+> python get-pip.py
+> python3 get-pip.py
+> Installing python numpy...
+> Installing python3 numpy...
+---
+--> Thu  9 Nov 15:01:15 UTC 2017
+--> temp=58.0'C
+---
+---
+Configure, Build and install OpenCV
+-----------------------------------
+Create build directory, and jump in...
+Configure OpenCV with cmake...
+---
+--> Thu  9 Nov 15:06:38 UTC 2017
+--> temp=60.1'C
+---
+---
+Build OpenCV with single core...
+---
+--> Thu  9 Nov 18:42:02 UTC 2017
+--> temp=62.3'C
+---
+Installing OpenCV...
+---
+-----------------------------
+------ OpenCV Installed------
+-----------------------------
+Started: Thu  9 Nov 14:34:00 UTC 2017
+Finished: Thu  9 Nov 18:43:25 UTC 2017
+--> temp=58.0'C
+==========================================================
+==========================================================
